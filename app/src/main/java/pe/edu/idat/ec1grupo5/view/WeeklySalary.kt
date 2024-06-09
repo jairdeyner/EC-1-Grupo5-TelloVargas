@@ -68,7 +68,7 @@ fun WeeklySalary(navController: NavController) {
             horizontalAlignment = Alignment.CenterHorizontally
         ) {
             Spacer(modifier = Modifier.size(100.dp))
-            
+
             OutlinedTextField(
                 value = hours,
                 onValueChange = { hours = it},
